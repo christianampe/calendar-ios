@@ -1,0 +1,6 @@
+framework module FlatCalendar {
+  umbrella header "FlatCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}

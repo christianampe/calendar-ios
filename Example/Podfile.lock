@@ -1,0 +1,16 @@
+PODS:
+  - FlatCalendar (0.1.0)
+
+DEPENDENCIES:
+  - FlatCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  FlatCalendar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FlatCalendar: bd6e2e9ca59950cde8f12ca41094e5b5f5efdba7
+
+PODFILE CHECKSUM: ea4df76f6d73f240888fa6efd5838b9a564c78b5
+
+COCOAPODS: 1.5.0
