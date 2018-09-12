@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FlatCalendar_Example' do
+  pod 'FlatCalendar', :path => '../'
+
+  target 'FlatCalendar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
