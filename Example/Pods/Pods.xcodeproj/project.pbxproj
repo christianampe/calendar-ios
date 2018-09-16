@@ -14,12 +14,12 @@
 		A03C8DB45007DD6904CD18E9CD9B54AD /* Pods-FlatCalendar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5599C433B8FF07790CDECC04D06EBBC /* Pods-FlatCalendar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B322DD0D37C69162E6C4894C92F01974 /* Pods-FlatCalendar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E34FF873ECC443C96FC047A8F5D773E5 /* Pods-FlatCalendar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE6B396D13E70B32BC94F0C360FA72FA /* Pods-FlatCalendar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4B944B1FB84C61B603499417A35038 /* Pods-FlatCalendar_Tests-dummy.m */; };
-		BF1ED9D92148E3CA00766CD7 /* CalendarEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA523C2148E38200E44ABD /* CalendarEventCell.swift */; };
+		BF1ED9D92148E3CA00766CD7 /* CalendarViewEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA523C2148E38200E44ABD /* CalendarViewEventCell.swift */; };
 		BF1ED9DA2148E3CC00766CD7 /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA523B2148E38200E44ABD /* CalendarEvent.swift */; };
-		BF1ED9DB2148E3CF00766CD7 /* CalendarViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA52412148E38200E44ABD /* CalendarViewCellDelegate.swift */; };
+		BF1ED9DB2148E3CF00766CD7 /* CalendarViewDayDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA52412148E38200E44ABD /* CalendarViewDayDelegate.swift */; };
 		BF1ED9DC2148E3D100766CD7 /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA52402148E38200E44ABD /* CalendarDay.swift */; };
-		BF1ED9DD2148E3D400766CD7 /* CalendarViewCellDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA523F2148E38200E44ABD /* CalendarViewCellDataSource.swift */; };
-		BF1ED9DE2148E3D600766CD7 /* CalendarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA523E2148E38200E44ABD /* CalendarViewCell.swift */; };
+		BF1ED9DD2148E3D400766CD7 /* CalendarViewDayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA523F2148E38200E44ABD /* CalendarViewDayDataSource.swift */; };
+		BF1ED9DE2148E3D600766CD7 /* CalendarViewDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA523E2148E38200E44ABD /* CalendarViewDayCell.swift */; };
 		BF1ED9DF2148E3D800766CD7 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA52462148E38200E44ABD /* CalendarView.swift */; };
 		BF1ED9E02148E3DB00766CD7 /* CalendarViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA52442148E38200E44ABD /* CalendarViewDelegate.swift */; };
 		BF1ED9E12148E3DE00766CD7 /* CalendarViewSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA52452148E38200E44ABD /* CalendarViewSectionHeader.swift */; };
@@ -65,11 +65,11 @@
 		A1327C23815C2170C7C1CF2B6E1BA651 /* Pods-FlatCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlatCalendar_Example.modulemap"; sourceTree = "<group>"; };
 		AFFDA45F45B4F08E77502ADD3774A7C0 /* Pods-FlatCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlatCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BFCA523B2148E38200E44ABD /* CalendarEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEvent.swift; sourceTree = "<group>"; };
-		BFCA523C2148E38200E44ABD /* CalendarEventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEventCell.swift; sourceTree = "<group>"; };
-		BFCA523E2148E38200E44ABD /* CalendarViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewCell.swift; sourceTree = "<group>"; };
-		BFCA523F2148E38200E44ABD /* CalendarViewCellDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewCellDataSource.swift; sourceTree = "<group>"; };
+		BFCA523C2148E38200E44ABD /* CalendarViewEventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewEventCell.swift; sourceTree = "<group>"; };
+		BFCA523E2148E38200E44ABD /* CalendarViewDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewDayCell.swift; sourceTree = "<group>"; };
+		BFCA523F2148E38200E44ABD /* CalendarViewDayDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewDayDataSource.swift; sourceTree = "<group>"; };
 		BFCA52402148E38200E44ABD /* CalendarDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDay.swift; sourceTree = "<group>"; };
-		BFCA52412148E38200E44ABD /* CalendarViewCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewCellDelegate.swift; sourceTree = "<group>"; };
+		BFCA52412148E38200E44ABD /* CalendarViewDayDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewDayDelegate.swift; sourceTree = "<group>"; };
 		BFCA52432148E38200E44ABD /* CalendarViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewDataSource.swift; sourceTree = "<group>"; };
 		BFCA52442148E38200E44ABD /* CalendarViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewDelegate.swift; sourceTree = "<group>"; };
 		BFCA52452148E38200E44ABD /* CalendarViewSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewSectionHeader.swift; sourceTree = "<group>"; };
@@ -202,8 +202,8 @@
 		BF2E1CF7214DE852001722F0 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				BFCA523F2148E38200E44ABD /* CalendarViewCellDataSource.swift */,
-				BFCA52412148E38200E44ABD /* CalendarViewCellDelegate.swift */,
+				BFCA523F2148E38200E44ABD /* CalendarViewDayDataSource.swift */,
+				BFCA52412148E38200E44ABD /* CalendarViewDayDelegate.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -219,7 +219,7 @@
 		BF2E1CF9214DE864001722F0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BFCA523E2148E38200E44ABD /* CalendarViewCell.swift */,
+				BFCA523E2148E38200E44ABD /* CalendarViewDayCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -227,7 +227,7 @@
 		BF2E1CFA214DE870001722F0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BFCA523C2148E38200E44ABD /* CalendarEventCell.swift */,
+				BFCA523C2148E38200E44ABD /* CalendarViewEventCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -491,13 +491,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF1ED9E22148E3E100766CD7 /* CalendarViewDataSource.swift in Sources */,
-				BF1ED9DD2148E3D400766CD7 /* CalendarViewCellDataSource.swift in Sources */,
-				BF1ED9D92148E3CA00766CD7 /* CalendarEventCell.swift in Sources */,
+				BF1ED9DD2148E3D400766CD7 /* CalendarViewDayDataSource.swift in Sources */,
+				BF1ED9D92148E3CA00766CD7 /* CalendarViewEventCell.swift in Sources */,
 				BF1ED9DF2148E3D800766CD7 /* CalendarView.swift in Sources */,
 				BF1ED9E02148E3DB00766CD7 /* CalendarViewDelegate.swift in Sources */,
-				BF1ED9DB2148E3CF00766CD7 /* CalendarViewCellDelegate.swift in Sources */,
+				BF1ED9DB2148E3CF00766CD7 /* CalendarViewDayDelegate.swift in Sources */,
 				BF1ED9DA2148E3CC00766CD7 /* CalendarEvent.swift in Sources */,
-				BF1ED9DE2148E3D600766CD7 /* CalendarViewCell.swift in Sources */,
+				BF1ED9DE2148E3D600766CD7 /* CalendarViewDayCell.swift in Sources */,
 				BF1ED9DC2148E3D100766CD7 /* CalendarDay.swift in Sources */,
 				21B51927535150F9578B85134B2E2506 /* FlatCalendar-dummy.m in Sources */,
 				BF1ED9E12148E3DE00766CD7 /* CalendarViewSectionHeader.swift in Sources */,
